@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Square+Peg&display=swap');
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Square Peg', cursive;
     margin: 0;
@@ -72,6 +76,10 @@ body {
     text-align: center;
     margin-top: 2rem;
     color: #2b1a06;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0;
 }
 
 .footer h1 {
